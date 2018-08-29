@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="hello_world_land">Hello landscape world!</string>
+</resources>
