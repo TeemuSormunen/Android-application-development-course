@@ -17,6 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TableRow
+            android:id="@+id/login_asd"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -28,13 +29,15 @@
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
 
-            <EditText
+            <AutoCompleteTextView
                 android:id="@+id/login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Name" />
+                android:inputType="textPersonName" />
+
+
+
         </TableRow>
 
         <TableRow
@@ -55,6 +58,7 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPassword"
+                android:password="true"
                 tools:layout_editor_absoluteX="84dp"
                 tools:layout_editor_absoluteY="62dp" />
         </TableRow>
@@ -67,6 +71,7 @@
                 android:id="@+id/Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="loginButtonClicked"
                 android:text="@string/login_text" />
         </TableRow>
 
