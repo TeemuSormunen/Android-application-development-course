@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SumCalculator</string>
     <string name="calc">Calculate</string>
+    <string name="sum">Sum:</string>
 </resources>
