@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find listview
-        ListView listview = (ListView) findViewById(R.id.listView);
+        ListView listview = findViewById(R.id.listView);
 
         // generate sume dummy data
         String[] phones = new String[]{
@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 "Android", "iPhone", "WindowsMobile", "Blackberry", "WebOS", "Ubuntu"
         };
         // add data to arraylist
-        final ArrayList<String> list = new ArrayList<String>();
+        final ArrayList<String> list = new ArrayList<>();
         for (int i = 0; i < phones.length; i++) {
             list.add(phones[i]);
         }
