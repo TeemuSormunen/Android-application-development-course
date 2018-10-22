@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,11 +30,15 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // add data to ArrayAdapter (default Android Listview style/layout)
-        ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, list);
+        //ArrayAdapter adapter = new ArrayAdapter(this, R.layout.rowlayout, R.id.phoneName, list);
+
+        // create custom adapter
+        PhoneArrayAdapter adapter = new PhoneArrayAdapter(this, list);
 
         // set data to listView with adapter
         listview.setAdapter(adapter);
 
+        // add data to ArrayAdapter (own custom layout)
 
 
 
