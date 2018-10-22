@@ -7,10 +7,10 @@
     android:layout_height="match_parent">
 
     <RelativeLayout
-        android:layout_width="373dp"
-        android:layout_height="479dp"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="2dp">
+        android:layout_width="379dp"
+        android:layout_height="504dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp">
 
         <TextView
             android:id="@+id/textView"
