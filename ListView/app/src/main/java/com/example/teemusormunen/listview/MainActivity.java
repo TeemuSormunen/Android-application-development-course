@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 // create an explicit intent
                 Intent intent = new Intent(MainActivity.this, DetailActivity.class);
                 // add data to intent
-                intent.putExtra("Phone", phone);
+                intent.putExtra("phone", phone);
                 // start a new activity
                 startActivity(intent);
 

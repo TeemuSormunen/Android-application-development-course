@@ -18,7 +18,7 @@ public class DetailActivity extends Activity {
         //get data from intent
         Bundle bundle = intent.getExtras();
         //get phone name
-        String phone = bundle.getString("Phone");
+        String phone = bundle.getString("phone");
 
         // update text and image views to show data
         TextView phoneTextView = findViewById(R.id.phoneNameView);

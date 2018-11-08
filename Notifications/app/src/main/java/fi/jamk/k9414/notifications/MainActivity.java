@@ -5,6 +5,8 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.os.Bundle;
 
+
+
 public class MainActivity extends Activity {
 
     @Override
@@ -12,10 +14,12 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        public int notification_id = 0;
+        int notification_id = 0;
 
 
 
+
+    }
 
     }
     public void buttonPressed(){
@@ -34,8 +38,6 @@ public class MainActivity extends Activity {
         notification_id++;
 
         notificationManager.notify(notification_id, notification);
-    }
-
 
 
 }
