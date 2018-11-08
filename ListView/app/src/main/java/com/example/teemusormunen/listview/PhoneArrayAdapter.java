@@ -33,10 +33,10 @@ public class PhoneArrayAdapter extends ArrayAdapter<String> {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View rowView = inflater.inflate(R.layout.rowlayout, parent, false);
         // show phone name
-        TextView textView = (TextView) rowView.findViewById(R.id.phoneName);
+        TextView textView =  rowView.findViewById(R.id.phoneName);
         textView.setText(phones.get(position));
         // show phone icon
-        ImageView imageView = (ImageView) rowView.findViewById(R.id.imageView);
+        ImageView imageView =  rowView.findViewById(R.id.imageView);
         switch (phones.get(position)) {
             case "Android": imageView.setImageResource(R.drawable.android); break;
             case "iPhone": imageView.setImageResource(R.drawable.ios); break;

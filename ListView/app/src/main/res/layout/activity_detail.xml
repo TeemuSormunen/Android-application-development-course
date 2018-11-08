@@ -32,11 +32,12 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="335dp"
+            android:layout_height="88dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="122dp" />
+            android:layout_marginTop="122dp"
+            android:text="@string/lorem" />
 
         <Button
             android:id="@+id/button"
@@ -45,6 +46,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="29dp"
+            android:onClick="backButtonPressed"
             android:text="@string/back" />
 
     </RelativeLayout>
