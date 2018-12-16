@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Notifications</string>
-    <string name="button">Press me</string>
-    <string name="back">Go back</string>
-    <string name="mainActivity">Main activity</string>
-    <string name="secondActivity">Second Activity</string>
-</resources>
